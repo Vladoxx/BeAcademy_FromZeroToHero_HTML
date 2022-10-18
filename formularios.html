@@ -1,0 +1,193 @@
+<!-- 
+    Block content (Div)
+        * action
+        * method (GET - Padrão)
+ -->
+    <!-- https://meusite.com.br/?nome=luanmonteiro=20 -->
+    
+ <form action="" method="POST">
+    <!-- <fieldset name="contato" form="">
+        <legend>Preencha o Formulário de contato</legend>
+    </fieldset> -->
+
+    <!-- Button -->
+    <!-- <button type="" name="" class="" id="">Enviar</button> -->
+    
+    
+    <!-- Label 
+        * Associar e identificar um ou mais tag de entrada de dados
+        * Ajuda bastante na acessibilidade
+        
+        Atributos:
+        - for
+        * Usado para fazer a conxão com outros tipos de elementos de formulários
+    -->
+    
+    <!-- <label>
+        Nome:
+        <input type="text" id="nome">
+    </label>
+    
+    <label for="age">Idade</label>
+    <input type="number" id="age"> -->
+    
+    <!-- <datalist>
+        * Lista de valores com sugestôes para algum elemento input
+        * Usuário poderá selecionar um dos valores ou colocar novos valores    
+    -->
+    
+    <!-- <datalist id="prif-list">
+        <option>Luan</option>
+        <option>Jennifer</option>
+        <option>Regis</option>
+    </datalist>
+    
+    <input type="text" list="prif-list" placeholder="Escolha seu professor"> -->
+    
+    <fieldset>
+        <legend>Trabalhando com Inputs</legend>
+    </fieldset>
+
+    <!-- Input text
+        * disableds: não pode se escrever
+        * readonly: lectura só
+    -->
+
+    <input 
+    type="text"
+    placeholder="Preencha o seu nome"
+    size="60"
+    minlength="8"
+    maxlength="20"
+    title="Preencha o dado"
+    >
+
+    <!-- Input Number -->
+
+    <!-- <input 
+    type="number"
+    size="50"
+    minlength="6"
+    maxlength="12"
+    title="Preencha o dado"
+    > -->
+
+    <br>
+    <!-- Input Email -->
+    <!-- <input 
+    type="email"
+    size="24"
+    title="Preencha o dado"
+    > -->
+
+    <br>
+    <!-- Input Senha -->
+    <!-- <input 
+    type="password"
+    size="24"
+    title="Preencha o dado"
+    pattern="[0-9a-fA-F]{4,8}"
+    required
+    > -->
+
+    <!-- Input Hidden -->
+    <!-- <input type="hidden" value="Eu estou escondido  "> -->
+
+    <br>
+
+    <!-- Input Color -->
+    <!-- <input type="color"> -->
+
+    <br>
+    <!-- Input -->
+    <!-- <input type="datetime-local"> -->
+
+    <br>
+    <!-- Input Checkbox -->
+    <!-- <label for="area">
+        Seu interesse maior é por qual área
+    <label>
+    <div>
+        <input type="checkbox" name="interesse" id="frontend" value="Front-end Luan Monteiro"> Front-end Luan Monteiro
+        <label for="frontend"></label>
+
+        <input type="checkbox" name="interesse" id="backend" value="Back-end Regis Santos"> Back-end Regis Santos
+        <label for="backend"></label>
+
+        <input type="checkbox" name="interesse" id="designuix" value="Design UI/UX Jenifer Vieira"> Design UI/UX Jenifer Vieira
+        <label for="designuix"></label>
+    </div> -->
+
+    <br>
+    <br>
+    <br>
+
+    <!-- interesse = front-end Luan Monteiro, back-end Regis Santos.... -->
+
+    <!-- Radio Button -->
+    <!-- <h3>Deseja receber notificação da be.academy</h3>
+    <label for="yes">Sim</label>
+    <input type="radio" name="notificaton" id="yes" value="yes">
+    
+    <label for="no">Não</label>
+    <input type="radio" name="notificaton" id="no" value="no"> -->
+
+    <br>
+    <!-- 
+        SELECT
+      
+        elemento de formulário capaz de criar uma lista de opções a serem selecionadas, DropDown
+    -->
+    <!-- <label for="teacher">Professores:</label>
+    <select name="select-teacher" id="teacher" multiple size=2>
+        <option value="">Selecione um Professor</option>
+        <option value="Luan Santos">Luan Santos</option>
+        <option value="Moacir Garcia">Moacir Garcia</option>
+        <option value="Jenifer Vieira">Jenifer Vieira</option>
+        <option value="Regis Eduardo">Regis Eduardo</option>
+    </select> -->
+
+    <!-- <br> -->
+
+    <!-- 
+        Input Search 
+    
+        * Elemento usado para pesquisar conteúdo
+        * Parecido com o campo "text" pode receber atributos e comportamentos
+    -->
+
+    <br>
+    <br>
+
+    <input 
+    type="search"
+    name=""
+    title="Busque por id de até 3 digitos"
+    placeholder="Busque por id do usuário"
+    size="24"
+    pattern="[0-9]{0,3}"
+    >
+
+    <br>
+    <br>
+
+    <!-- 
+        Manipulando arquios com o file 
+    
+        * Usuário poderá fazer um upload de 1 ou mais arquivos de acordo com a extensão
+    -->
+
+    <!-- Para aceitar varios arquivos precisa se de colocar no form o atributo enctype="multipart/form-data" (DEBO VERIFICAR ESTO) -->
+    <input 
+    type="file" 
+    value="" 
+    accept=".image/*"
+    multiple
+    name=""
+    id=""
+    >
+
+    <br>
+    <button type="submit">Enviar </button>
+
+</form>
