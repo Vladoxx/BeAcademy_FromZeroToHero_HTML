@@ -4,12 +4,12 @@
 *__Introdução ao Curso:__*
 
 * O que é HTML
-* Atributos e Atributos Globais
-* Aninhamento de Tags e Caractere Reservado
-* Autonomia de um documento HTML e Semântica
+* Atributos Globais
+* Aninhamento e Caracter Reservado
+* Autonomia de um documento HTML e semântica
 * Títulos e Parágrafos
-* Listas Ordenadas e não ordenadas e Citações
-* Abreviação e Elementos
+* Listas Ordenadas, não ordenadas e citações
+* Abreviação e elementos
 * Links
 * Navegação entre diretórios
 * Tabelas
